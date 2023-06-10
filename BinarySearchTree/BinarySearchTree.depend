@@ -1,0 +1,26 @@
+# depslib dependency file v1.0
+1674073808 source:c:\users\pc\onedrive\desktop\projekat spia - amar koric\binarysearchtree\tree.cpp
+	"tree.h"
+	<iostream>
+	<utility>
+	<vector>
+	<initializer_list>
+
+1674071016 source:c:\users\pc\onedrive\desktop\projekat spia - amar koric\binarysearchtree\main.cpp
+	<iostream>
+	"tree.h"
+
+1674064972 c:\users\pc\onedrive\desktop\projekat spia - amar koric\binarysearchtree\tree.h
+	<iostream>
+	<utility>
+	<vector>
+	<initializer_list>
+	"tree.cpp"
+
+1674073808 c:\users\pc\onedrive\desktop\projekat spia - amar koric\binarysearchtree\tree.cpp
+	"tree.h"
+	<iostream>
+	<utility>
+	<vector>
+	<initializer_list>
+
