@@ -13,8 +13,6 @@ using namespace std;
 template <typename Type>
 class Tree {
 
-  public:
-
   struct Node {
     Type value;
     Node *leftChild, *rightChild, *parent;
@@ -23,9 +21,6 @@ class Tree {
     Node(Type value = Type(), Node* leftChild = nullptr, Node* rightChild = nullptr, Node* parent = nullptr, std::pair<int, int> subtreeSize = {0, 0}):
          value(value), leftChild(leftChild), rightChild(rightChild), parent(parent), subtreeSize(subtreeSize) {}
   };
-
-
-  private:
 
   Node* root;
   int numberOfNodes;
@@ -37,7 +32,7 @@ class Tree {
 
   Node* FindMin(Node* node); // trazi minimalni element u podstablu ciji je korjen node
 
-  Node* FindNextInSubtree(Node* node, Node* subtree_root); //traûi naredni veci element u podstablu ciji je korjen subtree_root
+  Node* FindNextInSubtree(Node* node, Node* subtree_root); //tra≈æi naredni veci element u podstablu ciji je korjen subtree_root
 
   Node* FromSortedArrayMakeTree(vector<Node*> sortedArray, Node* Parent = nullptr); //od sortiranog vektora pravi stablo
   vector<Node*> FromTreeMakeSortedArray(Node* subtree_root); //od podstabla pravi sortiran vektor
