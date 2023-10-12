@@ -65,6 +65,5 @@ class Tree {
   void Print() {Print(root);} //ispisuje elemente stabla od najmanjeg ka najvecem
 };
 
-#include "tree.cpp"
 
 #endif // TREE_H
